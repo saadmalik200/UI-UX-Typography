@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./img/bg.jpg);
+  /* font-size: 16px; */
+}
+
+header {
+  padding: 2rem;
+  text-align: center;
+}
+nav,
+li {
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+header a:link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+header a:visited {
+  color: maroon;
+}
+
+header a:hover {
+  text-decoration: overline maroon;
+}
+header a:active {
+  color: red;
+  text-decoration: overline red;
+}
+
+main {
+  width: 80%;
+  background-color: rgba(226, 224, 221, 0.699);
+  margin: 0 auto;
+  padding: 3rem 10%;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+section {
+  border-left: 1px solid black;
+
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+h2 {
+  text-transform: uppercase;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-family: "Bad Script", cursive;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+h3 a {
+  color: maroon;
+  text-decoration: none;
+}
+
+h3 a:hover {
+  text-decoration: underline solid maroon;
+}
+h3 a:active {
+  text-decoration: underline solid blue;
+  color: blue;
+}
+p {
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}
+
+p:nth-of-type(1) {
+  margin-left: 1rem;
+}
+
+footer {
+  background-color: rgba(128, 128, 128, 0.507);
+  padding: 1rem;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: maroon;
+  font-size: 16px;
+}
+
+footer a:hover {
+  color: maroon;
+  text-decoration: underline solid maroon;
+  background-color: white;
+}
+
+footer a:active {
+  color: blue;
+  text-decoration: underline solid blue;
+  background-color: white;
+}
