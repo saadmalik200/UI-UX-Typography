@@ -1,5 +1,9 @@
 # Typography-Site
 
+## Link
+
+- Live Site URL: [https://saadmalik200.github.io/UI-UX-Typography/](https://saadmalik200.github.io/UI-UX-Typography/)
+
 ## Let's create a typography site and learn some more about typography in the process!
 
 You'll find the content and it's outline in the content directory. The content is essentialy some short summaries and links to useful books/articles/websites about typography.
