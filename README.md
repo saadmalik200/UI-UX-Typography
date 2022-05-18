@@ -1,4 +1,4 @@
-# Typography-Site
+# Typography Site
 
 ## Link
 
